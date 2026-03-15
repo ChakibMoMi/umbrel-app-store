@@ -12,11 +12,13 @@ description: >-
   compatible with the official Immich mobile apps for iOS and Android.
 developer: Alex Tran
 website: https://immich.app
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/immich.png
 dependencies: []
 repo: https://github.com/immich-app/immich
 support: https://discord.com/invite/D8JsnBEuKb
 port: 2283
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://immich.app
 path: ""
 defaultUsername: "admin@umbrel.local"
 defaultPassword: "umbrel123"

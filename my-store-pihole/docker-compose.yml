@@ -6,8 +6,6 @@ services:
     restart: on-failure
     ports:
       - "${APP_PORT}:80"
-      - "53:53/tcp"
-      - "53:53/udp"
     environment:
       - TZ=Europe/Berlin
       - WEBPASSWORD=umbrel123

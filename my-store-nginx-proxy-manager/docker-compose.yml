@@ -6,8 +6,6 @@ services:
     restart: on-failure
     ports:
       - "${APP_PORT}:81"
-      - "80:80"
-      - "443:443"
     environment:
       - DB_MYSQL_HOST=db
       - DB_MYSQL_PORT=3306

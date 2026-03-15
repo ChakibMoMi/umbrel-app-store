@@ -12,11 +12,13 @@ description: >-
   Supports all Tesla vehicle models.
 developer: Adrian Kumpf
 website: https://docs.teslamate.org
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/teslamate.png
 dependencies: []
 repo: https://github.com/teslamate-org/teslamate
 support: https://github.com/teslamate-org/teslamate/discussions
 port: 4000
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://docs.teslamate.org
 path: ""
 defaultUsername: ""
 defaultPassword: ""

@@ -11,11 +11,13 @@ description: >-
   or web server mode and exposes a REST API.
 developer: Nicolargo
 website: https://nicolargo.github.io/glances/
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/glances.png
 dependencies: []
 repo: https://github.com/nicolargo/glances
 support: https://github.com/nicolargo/glances/discussions
 port: 61208
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://nicolargo.github.io/glances/
 path: ""
 defaultUsername: ""
 defaultPassword: ""

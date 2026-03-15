@@ -11,11 +11,13 @@ description: >-
   Thousands of per-second metrics, interactive visualizations, pre-configured alerts.
 developer: Netdata Inc.
 website: https://www.netdata.cloud
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/netdata.png
 dependencies: []
 repo: https://github.com/netdata/netdata
 support: https://community.netdata.cloud
 port: 19999
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://www.netdata.cloud
 path: ""
 defaultUsername: ""
 defaultPassword: ""

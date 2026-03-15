@@ -6,7 +6,6 @@ services:
     restart: on-failure
     ports:
       - "${APP_PORT}:8082"
-      - "5055:5055"
     volumes:
       - "${APP_DATA_DIR}/data/logs:/opt/traccar/logs"
       - "${APP_DATA_DIR}/data/data:/opt/traccar/data"

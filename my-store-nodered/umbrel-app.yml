@@ -12,11 +12,13 @@ description: >-
   and notifications. A massive library of community nodes for any integration.
 developer: OpenJS Foundation
 website: https://nodered.org
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/node-red.png
 dependencies: []
 repo: https://github.com/node-red/node-red
 support: https://community.nodered.org
 port: 1880
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://nodered.org
 path: ""
 defaultUsername: "admin"
 defaultPassword: "umbrel123"

@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  app:
+    image: ghcr.io/simonwep/ocular:v2
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:80"
+    environment:
+      - GENESIS_JWT_SECRET=change-this-to-a-long-random-secret
+      - GENESIS_JWT_TOKEN_EXPIRATION=60
+      - GENESIS_CREATE_USERS=admin!:umbrel123
+      - GENESIS_JWT_COOKIE_ALLOW_HTTP=true
+    volumes:
+      - "${APP_DATA_DIR}/data:/data/genesis"

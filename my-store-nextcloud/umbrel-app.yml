@@ -11,12 +11,13 @@ description: >-
   your own server.
 developer: Nextcloud GmbH
 website: https://nextcloud.com
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nextcloud.png
 dependencies: []
 repo: https://github.com/nextcloud/server
 support: https://help.nextcloud.com
 port: 8080
 gallery:
-  - https://nextcloud.com/media/nextcloud-hub-files-25-preview.jpg
+  - https://image.thum.io/get/width/1280/noanimate/https://nextcloud.com
 path: ""
 defaultUsername: "admin"
 defaultPassword: "umbrel123"

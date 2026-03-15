@@ -12,11 +12,13 @@ description: >-
   and managing your recipes.
 developer: Hay Kot
 website: https://mealie.io
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mealie.png
 dependencies: []
 repo: https://github.com/mealie-recipes/mealie
 support: https://github.com/mealie-recipes/mealie/discussions
 port: 9925
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://mealie.io
 path: ""
 defaultUsername: "changeme@example.com"
 defaultPassword: "umbrel123"

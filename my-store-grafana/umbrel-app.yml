@@ -11,11 +11,13 @@ description: >-
   Prometheus, InfluxDB, MySQL, PostgreSQL and many more data sources.
 developer: Grafana Labs
 website: https://grafana.com
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/grafana.png
 dependencies: []
 repo: https://github.com/grafana/grafana
 support: https://community.grafana.com
 port: 3001
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://grafana.com
 path: ""
 defaultUsername: "admin"
 defaultPassword: "umbrel123"

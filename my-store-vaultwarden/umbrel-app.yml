@@ -11,11 +11,13 @@ description: >-
   secure notes and payment cards safely on your own server.
 developer: Daniel García
 website: https://github.com/dani-garcia/vaultwarden
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/vaultwarden.png
 dependencies: []
 repo: https://github.com/dani-garcia/vaultwarden
 support: https://github.com/dani-garcia/vaultwarden/discussions
 port: 3012
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://github.com/dani-garcia/vaultwarden
 path: ""
 defaultUsername: "admin"
 defaultPassword: "umbrel123"

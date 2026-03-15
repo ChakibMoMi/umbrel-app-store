@@ -12,11 +12,13 @@ description: >-
   the community to improve collective defense.
 developer: CrowdSec
 website: https://crowdsec.net
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/crowdsec.png
 dependencies: []
 repo: https://github.com/crowdsecurity/crowdsec
 support: https://discourse.crowdsec.net
-port: 8080
-gallery: []
+port: 8081
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://crowdsec.net
 path: ""
 defaultUsername: ""
 defaultPassword: ""

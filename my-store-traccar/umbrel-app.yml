@@ -12,11 +12,13 @@ description: >-
   data. Free mobile apps available.
 developer: Anton Tananaev
 website: https://www.traccar.org
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/traccar.png
 dependencies: []
 repo: https://github.com/traccar/traccar
 support: https://www.traccar.org/forums/
 port: 8082
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://www.traccar.org
 path: ""
 defaultUsername: "admin"
 defaultPassword: "umbrel123"

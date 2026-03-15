@@ -12,11 +12,13 @@ description: >-
   to those servers.
 developer: AdGuard Software
 website: https://adguard.com/en/adguard-home/overview.html
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/adguard-home.png
 dependencies: []
 repo: https://github.com/AdguardTeam/AdGuardHome
 support: https://github.com/AdguardTeam/AdGuardHome/discussions
 port: 3000
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://adguard.com/en/adguard-home/overview.html
 path: ""
 defaultUsername: "admin"
 defaultPassword: "changeme"

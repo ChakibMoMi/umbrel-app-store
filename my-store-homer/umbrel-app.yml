@@ -11,11 +11,13 @@ description: >-
   and custom widgets. No database required - just edit a YAML file.
 developer: Bastien Wirtz
 website: https://github.com/bastienwirtz/homer
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/homer.png
 dependencies: []
 repo: https://github.com/bastienwirtz/homer
 support: https://github.com/bastienwirtz/homer/discussions
 port: 8888
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://github.com/bastienwirtz/homer
 path: ""
 defaultUsername: ""
 defaultPassword: ""

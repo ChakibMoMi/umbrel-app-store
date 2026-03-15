@@ -11,11 +11,13 @@ description: >-
   dynamically. Traefik supports Let's Encrypt out of the box for automatic HTTPS.
 developer: Traefik Labs
 website: https://traefik.io
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/traefik.png
 dependencies: []
 repo: https://github.com/traefik/traefik
 support: https://community.traefik.io
 port: 8880
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://traefik.io
 path: ""
 defaultUsername: "admin"
 defaultPassword: "changeme"

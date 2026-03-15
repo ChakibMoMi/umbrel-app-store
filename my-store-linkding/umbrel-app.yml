@@ -12,11 +12,13 @@ description: >-
   REST API and can be used as a reading list.
 developer: sissbruecker
 website: https://github.com/sissbruecker/linkding
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/linkding.png
 dependencies: []
 repo: https://github.com/sissbruecker/linkding
 support: https://github.com/sissbruecker/linkding/issues
 port: 9090
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://github.com/sissbruecker/linkding
 path: ""
 defaultUsername: "admin"
 defaultPassword: "umbrel123"

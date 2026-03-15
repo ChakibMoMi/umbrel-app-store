@@ -12,11 +12,13 @@ description: >-
   converters, text transformation, and many more useful utilities.
 developer: Corentin Thomasset
 website: https://it-tools.tech
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/it-tools.png
 dependencies: []
 repo: https://github.com/CorentinTh/it-tools
 support: https://github.com/CorentinTh/it-tools/issues
 port: 8111
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://it-tools.tech
 path: ""
 defaultUsername: ""
 defaultPassword: ""

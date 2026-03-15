@@ -12,11 +12,13 @@ description: >-
   time.
 developer: Ghostfolio
 website: https://ghostfol.io
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ghostfolio.png
 dependencies: []
 repo: https://github.com/ghostfolio/ghostfolio
 support: https://github.com/ghostfolio/ghostfolio/discussions
 port: 3333
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://ghostfol.io
 path: ""
 defaultUsername: "admin"
 defaultPassword: "umbrel123"

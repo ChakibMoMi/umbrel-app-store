@@ -11,11 +11,13 @@ description: >-
   investments, debt and net worth over time. Built with modern web technologies.
 developer: Maybe Finance
 website: https://maybe.co
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/maybe.png
 dependencies: []
 repo: https://github.com/maybe-finance/maybe
 support: https://github.com/maybe-finance/maybe/discussions
 port: 3444
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://maybe.co
 path: ""
 defaultUsername: "admin@maybe.local"
 defaultPassword: "umbrel123"

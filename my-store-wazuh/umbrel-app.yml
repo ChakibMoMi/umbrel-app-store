@@ -12,11 +12,13 @@ description: >-
   powerful web dashboard powered by OpenSearch.
 developer: Wazuh Inc.
 website: https://wazuh.com
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wazuh.png
 dependencies: []
 repo: https://github.com/wazuh/wazuh
 support: https://wazuh.com/community/
 port: 443
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://wazuh.com
 path: ""
 defaultUsername: "admin"
 defaultPassword: "umbrel123"

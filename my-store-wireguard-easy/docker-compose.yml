@@ -6,7 +6,6 @@ services:
     restart: on-failure
     ports:
       - "${APP_PORT}:51821"
-      - "51820:51820/udp"
     environment:
       - WG_HOST=YOUR_SERVER_IP
       - PASSWORD=umbrel123

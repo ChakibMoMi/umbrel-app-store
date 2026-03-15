@@ -11,11 +11,13 @@ description: >-
   and see consumption statistics. Integrates with a barcode scanner.
 developer: Bernd Bestel
 website: https://grocy.info
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/grocy.png
 dependencies: []
 repo: https://github.com/grocy/grocy
 support: https://github.com/grocy/grocy/discussions
 port: 9283
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://grocy.info
 path: ""
 defaultUsername: "admin"
 defaultPassword: ""

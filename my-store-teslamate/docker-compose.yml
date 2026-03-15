@@ -37,8 +37,6 @@ services:
   grafana:
     image: teslamate/grafana:1.28.5
     restart: on-failure
-    ports:
-      - "3100:3000"
     environment:
       - DATABASE_USER=teslamate
       - DATABASE_PASS=teslamate_pass

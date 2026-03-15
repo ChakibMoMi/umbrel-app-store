@@ -12,11 +12,13 @@ description: >-
   that respects your privacy.
 developer: Emile Nijssen
 website: https://github.com/wg-easy/wg-easy
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wireguard.png
 dependencies: []
 repo: https://github.com/wg-easy/wg-easy
 support: https://github.com/wg-easy/wg-easy/discussions
 port: 51821
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://github.com/wg-easy/wg-easy
 path: ""
 defaultUsername: ""
 defaultPassword: "umbrel123"

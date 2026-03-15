@@ -7,7 +7,6 @@ services:
     command: server
     ports:
       - "${APP_PORT}:9000"
-      - "9443:9443"
     environment:
       - AUTHENTIK_REDIS__HOST=redis
       - AUTHENTIK_POSTGRESQL__HOST=db

@@ -11,11 +11,13 @@ description: >-
   notification services when something goes down.
 developer: Louis Lam
 website: https://uptime.kuma.pet
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/uptime-kuma.png
 dependencies: []
 repo: https://github.com/louislam/uptime-kuma
 support: https://github.com/louislam/uptime-kuma/discussions
 port: 3002
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://uptime.kuma.pet
 path: ""
 defaultUsername: ""
 defaultPassword: ""

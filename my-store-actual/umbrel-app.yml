@@ -11,11 +11,13 @@ description: >-
   statements (QFX, OFX, CSV), and use the REST API for custom integrations.
 developer: Actual Budget Team
 website: https://actualbudget.org
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/actual-budget.png
 dependencies: []
 repo: https://github.com/actualbudget/actual-server
 support: https://actualbudget.org/docs/community-repos/
 port: 5006
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://actualbudget.org
 path: ""
 defaultUsername: ""
 defaultPassword: "umbrel123"

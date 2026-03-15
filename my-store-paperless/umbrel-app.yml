@@ -11,11 +11,13 @@ description: >-
   tagging with machine learning, and a modern web interface.
 developer: Paperless-ngx Community
 website: https://docs.paperless-ngx.com
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/paperless-ngx.png
 dependencies: []
 repo: https://github.com/paperless-ngx/paperless-ngx
 support: https://github.com/paperless-ngx/paperless-ngx/discussions
 port: 8000
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://docs.paperless-ngx.com
 path: ""
 defaultUsername: "admin"
 defaultPassword: "umbrel123"

@@ -13,11 +13,13 @@ description: >-
   and an elegant web interface.
 developer: PhotoPrism
 website: https://photoprism.app
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/photoprism.png
 dependencies: []
 repo: https://github.com/photoprism/photoprism
 support: https://photoprism.app/kb/
 port: 2342
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://photoprism.app
 path: ""
 defaultUsername: "admin"
 defaultPassword: "umbrel123"

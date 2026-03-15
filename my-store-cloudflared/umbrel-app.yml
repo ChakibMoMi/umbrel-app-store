@@ -12,11 +12,13 @@ description: >-
   Cloudflare's global network. No need to open any inbound firewall ports.
 developer: Cloudflare
 website: https://www.cloudflare.com/products/tunnel/
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/cloudflare.png
 dependencies: []
 repo: https://github.com/cloudflare/cloudflared
 support: https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/
 port: 14333
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://www.cloudflare.com/products/tunnel/
 path: ""
 defaultUsername: ""
 defaultPassword: ""

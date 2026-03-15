@@ -12,11 +12,13 @@ description: >-
   calculating hashes and checksums, IPv6 and X.509 parsing, and much more.
 developer: GCHQ
 website: https://gchq.github.io/CyberChef/
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/cyberchef.png
 dependencies: []
 repo: https://github.com/gchq/CyberChef
 support: https://github.com/gchq/CyberChef/issues
 port: 8765
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://gchq.github.io/CyberChef/
 path: ""
 defaultUsername: ""
 defaultPassword: ""

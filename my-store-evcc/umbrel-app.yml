@@ -12,11 +12,13 @@ description: >-
   battery systems. A must-have for every EV owner with solar panels.
 developer: EVCC Contributors
 website: https://evcc.io
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/evcc.png
 dependencies: []
 repo: https://github.com/evcc-io/evcc
 support: https://github.com/evcc-io/evcc/discussions
 port: 7070
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://evcc.io
 path: ""
 defaultUsername: ""
 defaultPassword: ""

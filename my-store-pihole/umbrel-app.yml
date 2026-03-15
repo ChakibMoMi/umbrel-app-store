@@ -11,11 +11,13 @@ description: >-
   traffic. Includes a beautiful web admin interface.
 developer: Pi-hole LLC
 website: https://pi-hole.net
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pi-hole.png
 dependencies: []
 repo: https://github.com/pi-hole/pi-hole
 support: https://discourse.pi-hole.net
 port: 8053
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://pi-hole.net
 path: "/admin"
 defaultUsername: "admin"
 defaultPassword: "umbrel123"

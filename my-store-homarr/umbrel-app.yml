@@ -11,11 +11,13 @@ description: >-
   and more. Supports customizable layouts and themes.
 developer: Homarr Labs
 website: https://homarr.dev
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/homarr.png
 dependencies: []
 repo: https://github.com/ajnart/homarr
 support: https://homarr.dev/docs/community/get-help
 port: 7575
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://homarr.dev
 path: ""
 defaultUsername: "admin"
 defaultPassword: "umbrel123"

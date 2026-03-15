@@ -11,11 +11,13 @@ description: >-
   who want a fast and beautiful internal wiki.
 developer: General Outline Inc.
 website: https://www.getoutline.com
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/outline.png
 dependencies: []
 repo: https://github.com/outline/outline
 support: https://github.com/outline/outline/discussions
 port: 3003
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://www.getoutline.com
 path: ""
 defaultUsername: "admin@example.com"
 defaultPassword: "umbrel123"

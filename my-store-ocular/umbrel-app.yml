@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: my-store-ocular
+category: finance
+name: Ocular
+version: "2.2.2"
+tagline: Modern self-hosted budgeting app with multi-user support
+description: >-
+  Ocular is a modern, self-hosted budgeting and expense tracking app. It
+  supports multi-user management, yearly budget planning, detailed analytics,
+  and a clean dashboard UI. Data is stored locally in your own instance.
+developer: Simon Weppler
+website: https://simonwep.github.io/ocular
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ocular.png
+dependencies: []
+repo: https://github.com/simonwep/ocular
+support: https://github.com/simonwep/ocular/issues
+port: 3030
+gallery:
+  - https://github.com/user-attachments/assets/ba90874d-8a62-413a-af65-bf6f3d308e84
+  - https://github.com/user-attachments/assets/1be0a27b-a30e-42a3-82ea-f1b217ec163c
+  - https://github.com/user-attachments/assets/f365d526-d261-4274-9c68-816b401927fe
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

@@ -12,11 +12,13 @@ description: >-
   relationships are important, and you want to remember things.
 developer: Monica Authors
 website: https://www.monicahq.com
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/monica.png
 dependencies: []
 repo: https://github.com/monicahq/monica
 support: https://github.com/monicahq/monica/discussions
 port: 8200
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://www.monicahq.com
 path: ""
 defaultUsername: "admin@monica.local"
 defaultPassword: "umbrel123"

@@ -12,11 +12,13 @@ description: >-
   infrastructure.
 developer: Portainer.io
 website: https://www.portainer.io
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/portainer.png
 dependencies: []
 repo: https://github.com/portainer/portainer
 support: https://www.portainer.io/support
 port: 9444
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://www.portainer.io
 path: ""
 defaultUsername: "admin"
 defaultPassword: "umbrel123"

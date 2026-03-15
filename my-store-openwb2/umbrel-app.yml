@@ -13,11 +13,13 @@ description: >-
   Home Assistant. Perfect for German EV owners!
 developer: OpenWB Team
 website: https://openwb.de
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/openwb.png
 dependencies: []
 repo: https://github.com/openWB/core
 support: https://community.openwb.de
 port: 8500
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://openwb.de
 path: ""
 defaultUsername: ""
 defaultPassword: ""

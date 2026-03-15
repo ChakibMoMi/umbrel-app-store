@@ -12,11 +12,13 @@ description: >-
   control.
 developer: Laurent Cozic
 website: https://joplinapp.org
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/joplin.png
 dependencies: []
 repo: https://github.com/laurent22/joplin
 support: https://discourse.joplinapp.org
 port: 22300
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://joplinapp.org
 path: ""
 defaultUsername: "admin@localhost"
 defaultPassword: "umbrel123"

@@ -12,11 +12,13 @@ description: >-
   strong authentication. Easy to integrate with Nginx Proxy Manager and Traefik.
 developer: Authentik Security Inc.
 website: https://goauthentik.io
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/authentik.png
 dependencies: []
 repo: https://github.com/goauthentik/authentik
 support: https://github.com/goauthentik/authentik/discussions
 port: 9000
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://goauthentik.io
 path: ""
 defaultUsername: "akadmin"
 defaultPassword: "umbrel123"

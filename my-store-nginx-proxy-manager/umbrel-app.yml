@@ -11,11 +11,13 @@ description: >-
   management via Let's Encrypt, access lists, and redirection management.
 developer: Jamie Curnow
 website: https://nginxproxymanager.com
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nginx-proxy-manager.png
 dependencies: []
 repo: https://github.com/NginxProxyManager/nginx-proxy-manager
 support: https://reddit.com/r/nginxproxymanager
 port: 81
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://nginxproxymanager.com
 path: ""
 defaultUsername: "admin@example.com"
 defaultPassword: "changeme"

@@ -12,11 +12,13 @@ description: >-
   sending books directly to e-readers. OPDS catalog support for external apps.
 developer: Calibre-Web Contributors
 website: https://github.com/janeczku/calibre-web
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/calibre-web.png
 dependencies: []
 repo: https://github.com/janeczku/calibre-web
 support: https://github.com/janeczku/calibre-web/discussions
 port: 8083
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://github.com/janeczku/calibre-web
 path: ""
 defaultUsername: "admin"
 defaultPassword: "umbrel123"

@@ -12,11 +12,13 @@ description: >-
   reading lists, and a beautiful modern interface.
 developer: Majora2007
 website: https://www.kavitareader.com
+icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/kavita.png
 dependencies: []
 repo: https://github.com/Kareadita/Kavita
 support: https://discord.gg/eczRp9eeem
 port: 5000
-gallery: []
+gallery:
+  - https://image.thum.io/get/width/1280/noanimate/https://www.kavitareader.com
 path: ""
 defaultUsername: "admin"
 defaultPassword: "umbrel123"
