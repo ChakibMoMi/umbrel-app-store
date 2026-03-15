@@ -1,0 +1,49 @@
+version: "3.7"
+
+services:
+  app:
+    image: photoprism/photoprism:231128-61c6978d1
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:2342"
+    security_opt:
+      - seccomp:unconfined
+      - apparmor:unconfined
+    environment:
+      - PHOTOPRISM_ADMIN_USER=admin
+      - PHOTOPRISM_ADMIN_PASSWORD=umbrel123
+      - PHOTOPRISM_AUTH_MODE=password
+      - PHOTOPRISM_SITE_URL=http://localhost:${APP_PORT}/
+      - PHOTOPRISM_ORIGINALS_LIMIT=5000
+      - PHOTOPRISM_HTTP_COMPRESSION=gzip
+      - PHOTOPRISM_LOG_LEVEL=info
+      - PHOTOPRISM_READONLY=false
+      - PHOTOPRISM_EXPERIMENTAL=false
+      - PHOTOPRISM_DISABLE_CHOWN=false
+      - PHOTOPRISM_DATABASE_DRIVER=mysql
+      - PHOTOPRISM_DATABASE_SERVER=db:3306
+      - PHOTOPRISM_DATABASE_NAME=photoprism
+      - PHOTOPRISM_DATABASE_USER=photoprism
+      - PHOTOPRISM_DATABASE_PASSWORD=photoprism_pass
+    volumes:
+      - "${APP_DATA_DIR}/data/originals:/photoprism/originals"
+      - "${APP_DATA_DIR}/data/storage:/photoprism/storage"
+    depends_on:
+      - db
+
+  db:
+    image: mariadb:10.11
+    restart: on-failure
+    security_opt:
+      - seccomp:unconfined
+      - apparmor:unconfined
+    command: mysqld --innodb-buffer-pool-size=512M --transaction-isolation=READ-COMMITTED
+    environment:
+      - MARIADB_AUTO_UPGRADE=1
+      - MARIADB_INITDB_SKIP_TZINFO=1
+      - MARIADB_DATABASE=photoprism
+      - MARIADB_USER=photoprism
+      - MARIADB_PASSWORD=photoprism_pass
+      - MARIADB_ROOT_PASSWORD=root_pass
+    volumes:
+      - "${APP_DATA_DIR}/data/db:/var/lib/mysql"

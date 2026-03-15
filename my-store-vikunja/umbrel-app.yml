@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-vikunja
+category: productivity
+name: Vikunja
+version: "0.23.0"
+tagline: The open-source, self-hostable to-do app
+description: >-
+  Vikunja is a self-hosted open-source to-do app and project management tool.
+  It supports Gantt charts, Kanban boards, list views, table views, and
+  calendar views. Share projects with your team, set deadlines, priorities and
+  reminders. Available for all platforms.
+developer: Vikunja
+website: https://vikunja.io
+dependencies: []
+repo: https://kolaente.dev/vikunja/vikunja
+support: https://community.vikunja.io
+port: 3456
+gallery: []
+path: ""
+defaultUsername: "admin@vikunja.io"
+defaultPassword: "supersecret"
+torOnly: false

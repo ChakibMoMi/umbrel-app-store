@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  app:
+    image: prom/prometheus:v2.50.1
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:9090"
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--storage.tsdb.path=/prometheus"
+      - "--web.console.libraries=/usr/share/prometheus/console_libraries"
+      - "--web.console.templates=/usr/share/prometheus/consoles"
+      - "--storage.tsdb.retention.time=30d"
+    volumes:
+      - "${APP_DATA_DIR}/data/config/prometheus.yml:/etc/prometheus/prometheus.yml:ro"
+      - "${APP_DATA_DIR}/data/tsdb:/prometheus"

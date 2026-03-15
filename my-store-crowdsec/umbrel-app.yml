@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-crowdsec
+category: security
+name: CrowdSec
+version: "1.6.2"
+tagline: Open-source & collaborative cybersecurity ecosystem
+description: >-
+  CrowdSec is an open-source, lightweight agent to detect and respond to bad
+  actor behaviors. It parses logs from various sources and uses crowd-sourced
+  threat intelligence to identify and block attackers. The integrated bouncer
+  system can block IPs in firewall rules, Nginx, and more. Share knowledge with
+  the community to improve collective defense.
+developer: CrowdSec
+website: https://crowdsec.net
+dependencies: []
+repo: https://github.com/crowdsecurity/crowdsec
+support: https://discourse.crowdsec.net
+port: 8080
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

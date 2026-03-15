@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-evcc
+category: vehicles
+name: EVCC
+version: "0.125.1"
+tagline: EV charge controller & solar charging optimizer
+description: >-
+  EVCC is an open-source EV charge controller and energy management system.
+  It optimizes electric vehicle charging with solar energy, dynamically
+  adjusting charging power based on solar surplus, grid price, or battery state.
+  Supports 200+ EV chargers (wallboxes), 100+ vehicles, and 50+ solar inverters/
+  battery systems. A must-have for every EV owner with solar panels.
+developer: EVCC Contributors
+website: https://evcc.io
+dependencies: []
+repo: https://github.com/evcc-io/evcc
+support: https://github.com/evcc-io/evcc/discussions
+port: 7070
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-bookstack
+category: productivity
+name: BookStack
+version: "24.02"
+tagline: A simple, self-hosted, easy-to-use wiki & documentation platform
+description: >-
+  BookStack is a simple, self-hosted, easy-to-use platform for organising and
+  storing information. It is designed to be great for teams and suitable for
+  anyone. Books, chapters and pages are easy to create and follow a logical
+  structure. Supports Markdown and WYSIWYG editing, role-based permissions and
+  full-text search.
+developer: Dan Brown
+website: https://www.bookstackapp.com
+dependencies: []
+repo: https://github.com/BookStackApp/BookStack
+support: https://www.bookstackapp.com/support/
+port: 6875
+gallery: []
+path: ""
+defaultUsername: "admin@admin.com"
+defaultPassword: "umbrel123"
+torOnly: false

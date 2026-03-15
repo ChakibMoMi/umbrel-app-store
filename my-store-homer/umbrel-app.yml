@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-homer
+category: monitoring
+name: Homer
+version: "24.02.1"
+tagline: A very simple static homepage for your server
+description: >-
+  Homer is a dead simple static HOMepage for your servER to keep your services
+  on hand from a simple yaml config. It is light, fast and feature-rich:
+  supports multiple themes, search, keyboard shortcuts, service health checks,
+  and custom widgets. No database required - just edit a YAML file.
+developer: Bastien Wirtz
+website: https://github.com/bastienwirtz/homer
+dependencies: []
+repo: https://github.com/bastienwirtz/homer
+support: https://github.com/bastienwirtz/homer/discussions
+port: 8888
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

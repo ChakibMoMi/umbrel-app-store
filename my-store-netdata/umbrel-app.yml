@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-netdata
+category: monitoring
+name: Netdata
+version: "1.44.3"
+tagline: Real-time performance and health monitoring
+description: >-
+  Netdata is a distributed real-time performance and health monitoring solution
+  for systems, hardware, containers and applications. It provides unparalleled
+  insights in real-time, without needing the user to be an expert in monitoring.
+  Thousands of per-second metrics, interactive visualizations, pre-configured alerts.
+developer: Netdata Inc.
+website: https://www.netdata.cloud
+dependencies: []
+repo: https://github.com/netdata/netdata
+support: https://community.netdata.cloud
+port: 19999
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

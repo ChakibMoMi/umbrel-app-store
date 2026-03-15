@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: my-store-photoprism
+category: personal
+name: PhotoPrism
+version: "231128-61c6978d1"
+tagline: AI-powered photos app for the decentralized web
+description: >-
+  PhotoPrism is an AI-powered app for browsing, organizing and sharing your
+  photo collection. It makes use of the latest technologies to tag and find
+  pictures automatically without getting in your way. You can run it at home,
+  on a private server, or in the cloud. Features include automatic tagging,
+  face recognition, face clustering, location services, RAW file support,
+  and an elegant web interface.
+developer: PhotoPrism
+website: https://photoprism.app
+dependencies: []
+repo: https://github.com/photoprism/photoprism
+support: https://photoprism.app/kb/
+port: 2342
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

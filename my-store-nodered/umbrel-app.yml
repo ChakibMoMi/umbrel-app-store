@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-nodered
+category: vehicles
+name: Node-RED
+version: "3.1.7"
+tagline: Low-code programming for event-driven vehicle & IoT automation
+description: >-
+  Node-RED is a flow-based programming tool for wiring together hardware devices,
+  APIs, and online services. In the vehicle context, it can interface with MQTT,
+  OBDII/ELM327 adapters, Tesla API, BMW ConnectedDrive, Volkwagen We Connect,
+  Mercedes me, and others to build custom vehicle dashboards, automation flows,
+  and notifications. A massive library of community nodes for any integration.
+developer: OpenJS Foundation
+website: https://nodered.org
+dependencies: []
+repo: https://github.com/node-red/node-red
+support: https://community.nodered.org
+port: 1880
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

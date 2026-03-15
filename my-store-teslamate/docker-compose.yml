@@ -1,0 +1,50 @@
+version: "3.7"
+
+services:
+  app:
+    image: teslamate/teslamate:1.28.5
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:4000"
+    environment:
+      - ENCRYPTION_KEY=changethisencryptionkey
+      - DATABASE_USER=teslamate
+      - DATABASE_PASS=teslamate_pass
+      - DATABASE_NAME=teslamate
+      - DATABASE_HOST=db
+      - MQTT_HOST=mosquitto
+    depends_on:
+      - db
+      - mosquitto
+
+  db:
+    image: postgres:15-alpine
+    restart: on-failure
+    environment:
+      - POSTGRES_USER=teslamate
+      - POSTGRES_PASSWORD=teslamate_pass
+      - POSTGRES_DB=teslamate
+    volumes:
+      - "${APP_DATA_DIR}/data/db:/var/lib/postgresql/data"
+
+  mosquitto:
+    image: eclipse-mosquitto:2.0.15
+    restart: on-failure
+    volumes:
+      - "${APP_DATA_DIR}/data/mosquitto/conf:/mosquitto/config"
+      - "${APP_DATA_DIR}/data/mosquitto/data:/mosquitto/data"
+
+  grafana:
+    image: teslamate/grafana:1.28.5
+    restart: on-failure
+    ports:
+      - "3100:3000"
+    environment:
+      - DATABASE_USER=teslamate
+      - DATABASE_PASS=teslamate_pass
+      - DATABASE_NAME=teslamate
+      - DATABASE_HOST=db
+    volumes:
+      - "${APP_DATA_DIR}/data/grafana:/var/lib/grafana"
+    depends_on:
+      - db

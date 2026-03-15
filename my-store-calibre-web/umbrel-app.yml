@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-calibre-web
+category: personal
+name: Calibre Web
+version: "0.6.21"
+tagline: A clean web app for browsing, reading and downloading eBooks
+description: >-
+  Calibre-Web is a web app providing a clean interface for browsing, reading
+  and downloading eBooks using an existing Calibre database. Features include
+  Google Drive integration, Kobo and Kindle support, metadata editing, user
+  management with fine-grained permissions, e-reader support, and supports
+  sending books directly to e-readers. OPDS catalog support for external apps.
+developer: Calibre-Web Contributors
+website: https://github.com/janeczku/calibre-web
+dependencies: []
+repo: https://github.com/janeczku/calibre-web
+support: https://github.com/janeczku/calibre-web/discussions
+port: 8083
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

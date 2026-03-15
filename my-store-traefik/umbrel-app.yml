@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-traefik
+category: networking
+name: Traefik
+version: "3.0.0"
+tagline: The cloud native application proxy
+description: >-
+  Traefik is a leading modern reverse proxy and load balancer that makes
+  deploying microservices easy. It integrates with your existing infrastructure
+  components (Docker, Kubernetes, etc.) and configures itself automatically and
+  dynamically. Traefik supports Let's Encrypt out of the box for automatic HTTPS.
+developer: Traefik Labs
+website: https://traefik.io
+dependencies: []
+repo: https://github.com/traefik/traefik
+support: https://community.traefik.io
+port: 8880
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "changeme"
+torOnly: false

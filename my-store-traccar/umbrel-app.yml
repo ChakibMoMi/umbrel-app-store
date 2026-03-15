@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-traccar
+category: vehicles
+name: Traccar
+version: "6.2"
+tagline: Open source GPS tracking platform
+description: >-
+  Traccar is the leading GPS tracking open source software that supports 170+
+  GPS protocols and 2000+ models of GPS devices. Track your vehicles, assets,
+  and people in real time on a map. Set up geofences and get alerts when devices
+  enter or leave them. View history of past trips, generate reports and export
+  data. Free mobile apps available.
+developer: Anton Tananaev
+website: https://www.traccar.org
+dependencies: []
+repo: https://github.com/traccar/traccar
+support: https://www.traccar.org/forums/
+port: 8082
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

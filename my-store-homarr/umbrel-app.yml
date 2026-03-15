@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-homarr
+category: monitoring
+name: Homarr
+version: "0.15.3"
+tagline: A sleek, modern dashboard for your homelab
+description: >-
+  Homarr is a simple and lightweight homepage for your server that helps you
+  easily access all of your services in one place. Integrates with Docker to
+  show running containers, has built-in widgets for weather, search, calendar,
+  and more. Supports customizable layouts and themes.
+developer: Homarr Labs
+website: https://homarr.dev
+dependencies: []
+repo: https://github.com/ajnart/homarr
+support: https://homarr.dev/docs/community/get-help
+port: 7575
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

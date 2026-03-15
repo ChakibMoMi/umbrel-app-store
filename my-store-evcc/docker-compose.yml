@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  app:
+    image: evcc/evcc:0.125.1
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:7070"
+    command: ["evcc", "--config", "/etc/evcc.yaml"]
+    volumes:
+      - "${APP_DATA_DIR}/data/evcc.yaml:/etc/evcc.yaml"
+      - "${APP_DATA_DIR}/data:/root/.evcc"

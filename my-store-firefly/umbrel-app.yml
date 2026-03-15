@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-firefly
+category: finance
+name: Firefly III
+version: "6.1.7"
+tagline: A free and open source personal finance manager
+description: >-
+  Firefly III is a self-hosted financial manager that helps you keep track of
+  your expenses and income. It's built around the concept of "double-entry
+  bookkeeping". Create budgets, recurring transactions, and automatic bill
+  detection. Generate reports and charts to understand your spending patterns.
+  Import from CSV or connect to your bank.
+developer: James Cole
+website: https://www.firefly-iii.org
+dependencies: []
+repo: https://github.com/firefly-iii/firefly-iii
+support: https://github.com/firefly-iii/firefly-iii/discussions
+port: 8040
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

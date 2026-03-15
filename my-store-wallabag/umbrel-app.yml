@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-wallabag
+category: productivity
+name: Wallabag
+version: "2.6.9"
+tagline: A self-hosted read-it-later app
+description: >-
+  Wallabag is a self-hosted read-it-later app. Unlike other apps, wallabag is
+  free (as in freedom) and open source. Save articles, read them anytime, tag
+  them, export them to e-readers. Wallabag works with browser extensions,
+  mobile apps (Android & iOS), and RSS feeds. Never lose an interesting article
+  again.
+developer: Wallabag Team
+website: https://wallabag.org
+dependencies: []
+repo: https://github.com/wallabag/wallabag
+support: https://github.com/wallabag/wallabag/issues
+port: 8095
+gallery: []
+path: ""
+defaultUsername: "wallabag"
+defaultPassword: "umbrel123"
+torOnly: false

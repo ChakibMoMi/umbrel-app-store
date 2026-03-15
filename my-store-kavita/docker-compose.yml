@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  app:
+    image: lscr.io/linuxserver/kavita:0.8.0
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:5000"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Berlin
+    volumes:
+      - "${APP_DATA_DIR}/data/config:/config"
+      - "${APP_DATA_DIR}/data/books:/books"

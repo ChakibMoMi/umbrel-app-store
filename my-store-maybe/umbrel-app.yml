@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-maybe
+category: finance
+name: Maybe Finance
+version: "0.1.0"
+tagline: The OS for your personal finances
+description: >-
+  Maybe is a self-hosted, open-source personal finance app. It helps you track
+  all your financial accounts in one place, visualize your net worth, see your
+  spending trends, and plan for the future. Connect your bank accounts, track
+  investments, debt and net worth over time. Built with modern web technologies.
+developer: Maybe Finance
+website: https://maybe.co
+dependencies: []
+repo: https://github.com/maybe-finance/maybe
+support: https://github.com/maybe-finance/maybe/discussions
+port: 3444
+gallery: []
+path: ""
+defaultUsername: "admin@maybe.local"
+defaultPassword: "umbrel123"
+torOnly: false

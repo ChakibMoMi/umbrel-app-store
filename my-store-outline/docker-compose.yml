@@ -1,0 +1,38 @@
+version: "3.7"
+
+services:
+  app:
+    image: outlinewiki/outline:0.76.1
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:3000"
+    environment:
+      - NODE_ENV=production
+      - SECRET_KEY=changethissecretkey32charsminimum
+      - UTILS_SECRET=changethisutilssecret32charsmin
+      - DATABASE_URL=postgres://outline:outline_pass@db:5432/outline
+      - REDIS_URL=redis://redis:6379
+      - URL=http://localhost:${APP_PORT}
+      - PORT=3000
+      - FORCE_HTTPS=false
+      - FILE_STORAGE=local
+      - FILE_STORAGE_LOCAL_ROOT_DIR=/var/lib/outline/data
+    volumes:
+      - "${APP_DATA_DIR}/data/files:/var/lib/outline/data"
+    depends_on:
+      - db
+      - redis
+
+  db:
+    image: postgres:15
+    restart: on-failure
+    environment:
+      - POSTGRES_DB=outline
+      - POSTGRES_USER=outline
+      - POSTGRES_PASSWORD=outline_pass
+    volumes:
+      - "${APP_DATA_DIR}/data/db:/var/lib/postgresql/data"
+
+  redis:
+    image: redis:7-alpine
+    restart: on-failure

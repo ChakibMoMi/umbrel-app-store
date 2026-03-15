@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  app:
+    image: actualbudget/actual-server:24.3.0
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:5006"
+    volumes:
+      - "${APP_DATA_DIR}/data:/data"

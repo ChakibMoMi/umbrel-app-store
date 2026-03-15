@@ -1,0 +1,37 @@
+version: "3.7"
+
+services:
+  app:
+    image: monicahq/monicahq:4.1.2
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:80"
+    environment:
+      - APP_ENV=production
+      - APP_DEBUG=false
+      - APP_URL=http://localhost:${APP_PORT}
+      - DB_CONNECTION=mysql
+      - DB_HOST=db
+      - DB_PORT=3306
+      - DB_DATABASE=monica
+      - DB_USERNAME=monica
+      - DB_PASSWORD=monica_pass
+      - APP_KEY=base64:changethislaravelappkey32chars=
+      - MAIL_MAILER=log
+      - ENABLE_GEOLOCATION=true
+      - ENABLE_WEATHER=false
+    volumes:
+      - "${APP_DATA_DIR}/data/storage:/var/www/html/storage"
+    depends_on:
+      - db
+
+  db:
+    image: mariadb:10.11
+    restart: on-failure
+    environment:
+      - MYSQL_ROOT_PASSWORD=root_pass
+      - MYSQL_DATABASE=monica
+      - MYSQL_USER=monica
+      - MYSQL_PASSWORD=monica_pass
+    volumes:
+      - "${APP_DATA_DIR}/data/db:/var/lib/mysql"

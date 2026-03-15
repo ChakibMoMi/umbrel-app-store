@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-grafana
+category: monitoring
+name: Grafana
+version: "10.3.3"
+tagline: The open observability platform for dashboards and metrics
+description: >-
+  Grafana is the open-source analytics and monitoring solution. Query,
+  visualize, alert on, and understand your metrics no matter where they are
+  stored. Create, explore, and share dashboards with your team. Supports
+  Prometheus, InfluxDB, MySQL, PostgreSQL and many more data sources.
+developer: Grafana Labs
+website: https://grafana.com
+dependencies: []
+repo: https://github.com/grafana/grafana
+support: https://community.grafana.com
+port: 3001
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

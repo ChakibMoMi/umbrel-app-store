@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-ghostfolio
+category: finance
+name: Ghostfolio
+version: "2.54.0"
+tagline: Open Source Wealth Management Software
+description: >-
+  Ghostfolio is an open-source wealth management software built with web
+  technologies. It lets you track your financial assets (stocks, ETFs, crypto,
+  and more) across multiple accounts. Analyze and visualize your portfolio
+  performance, asset allocation and see how your net worth has developed over
+  time.
+developer: Ghostfolio
+website: https://ghostfol.io
+dependencies: []
+repo: https://github.com/ghostfolio/ghostfolio
+support: https://github.com/ghostfolio/ghostfolio/discussions
+port: 3333
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

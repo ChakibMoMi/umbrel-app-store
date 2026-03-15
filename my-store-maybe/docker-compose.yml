@@ -1,0 +1,31 @@
+version: "3.7"
+
+services:
+  app:
+    image: ghcr.io/maybe-finance/maybe:latest
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:3000"
+    environment:
+      - SELF_HOSTED=true
+      - RAILS_FORCE_SSL=false
+      - RAILS_ASSUME_SSL=false
+      - GOOD_JOB_EXECUTION_MODE=async
+      - SECRET_KEY_BASE=changethissecretkeybase64chars
+      - DB_HOST=db
+      - DB_PORT=5432
+      - POSTGRES_DB=maybe_production
+      - POSTGRES_USER=maybe
+      - POSTGRES_PASSWORD=maybe_pass
+    depends_on:
+      - db
+
+  db:
+    image: postgres:16-alpine
+    restart: on-failure
+    environment:
+      - POSTGRES_USER=maybe
+      - POSTGRES_PASSWORD=maybe_pass
+      - POSTGRES_DB=maybe_production
+    volumes:
+      - "${APP_DATA_DIR}/data/db:/var/lib/postgresql/data"

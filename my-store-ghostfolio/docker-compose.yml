@@ -1,0 +1,32 @@
+version: "3.7"
+
+services:
+  app:
+    image: ghostfolio/ghostfolio:2.54.0
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:3333"
+    environment:
+      - NODE_ENV=production
+      - ACCESS_TOKEN_SALT=changethissalt
+      - DATABASE_URL=postgresql://ghostfolio:ghostfolio_pass@db:5432/ghostfolio?sslmode=prefer
+      - JWT_SECRET_KEY=changethisjwtsecret
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      - db
+      - redis
+
+  db:
+    image: postgres:15-alpine
+    restart: on-failure
+    environment:
+      - POSTGRES_USER=ghostfolio
+      - POSTGRES_PASSWORD=ghostfolio_pass
+      - POSTGRES_DB=ghostfolio
+    volumes:
+      - "${APP_DATA_DIR}/data/db:/var/lib/postgresql/data"
+
+  redis:
+    image: redis:7-alpine
+    restart: on-failure

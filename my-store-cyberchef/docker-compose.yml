@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  app:
+    image: mpepping/cyberchef:v10.18.9
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:8000"

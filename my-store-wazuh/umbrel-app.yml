@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-wazuh
+category: security
+name: Wazuh
+version: "4.7.3"
+tagline: Open source security platform – XDR & SIEM
+description: >-
+  Wazuh is a free, open source security platform that unifies XDR and SIEM
+  capabilities. It provides log data analysis, file integrity monitoring,
+  vulnerability detection, real-time threat detection, compliance assessment,
+  and incident response for servers, endpoints, and cloud workloads. Features a
+  powerful web dashboard powered by OpenSearch.
+developer: Wazuh Inc.
+website: https://wazuh.com
+dependencies: []
+repo: https://github.com/wazuh/wazuh
+support: https://wazuh.com/community/
+port: 443
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

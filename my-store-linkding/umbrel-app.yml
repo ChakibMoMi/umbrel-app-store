@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-linkding
+category: productivity
+name: Linkding
+version: "1.27.0"
+tagline: Self-hosted bookmark manager that is designed to be minimal
+description: >-
+  Linkding is a self-hosted bookmark service with a minimal, clean user
+  interface. It lets you organise bookmarks in tags, offers a search interface,
+  supports import and export of bookmarks (Netscape format), and provides a
+  bookmarklet and browser extensions for quickly saving bookmarks. Features a
+  REST API and can be used as a reading list.
+developer: sissbruecker
+website: https://github.com/sissbruecker/linkding
+dependencies: []
+repo: https://github.com/sissbruecker/linkding
+support: https://github.com/sissbruecker/linkding/issues
+port: 9090
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

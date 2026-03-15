@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-pihole
+category: networking
+name: Pi-hole
+version: "2024.02.0"
+tagline: A black hole for internet advertisements
+description: >-
+  Pi-hole is a DNS sinkhole that protects your devices from unwanted content,
+  without installing any client-side software. Block ads on all devices on your
+  network, set custom DNS entries, and view statistics about your network
+  traffic. Includes a beautiful web admin interface.
+developer: Pi-hole LLC
+website: https://pi-hole.net
+dependencies: []
+repo: https://github.com/pi-hole/pi-hole
+support: https://discourse.pi-hole.net
+port: 8053
+gallery: []
+path: "/admin"
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

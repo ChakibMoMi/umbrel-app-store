@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-monica
+category: personal
+name: Monica
+version: "4.1.2"
+tagline: Open source personal CRM to organize your social life
+description: >-
+  Monica is an open source personal relationship management tool. Think of it
+  as a CRM for your personal life. It helps you to organize the social
+  interactions with your loved ones. Remember birthdays, important events,
+  conversations. Take notes about people and schedule activities. Because
+  relationships are important, and you want to remember things.
+developer: Monica Authors
+website: https://www.monicahq.com
+dependencies: []
+repo: https://github.com/monicahq/monica
+support: https://github.com/monicahq/monica/discussions
+port: 8200
+gallery: []
+path: ""
+defaultUsername: "admin@monica.local"
+defaultPassword: "umbrel123"
+torOnly: false

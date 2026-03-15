@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-uptime-kuma
+category: monitoring
+name: Uptime Kuma
+version: "1.23.11"
+tagline: A fancy self-hosted monitoring tool
+description: >-
+  Uptime Kuma is an easy-to-use self-hosted monitoring tool. Monitor HTTP(s),
+  TCP, HTTP(s) keyword, Ping, DNS Record, Steam Game Server, Docker containers
+  and more. Get notified by Telegram, Discord, Slack, Email and 90+ other
+  notification services when something goes down.
+developer: Louis Lam
+website: https://uptime.kuma.pet
+dependencies: []
+repo: https://github.com/louislam/uptime-kuma
+support: https://github.com/louislam/uptime-kuma/discussions
+port: 3002
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

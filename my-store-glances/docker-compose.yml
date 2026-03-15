@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  app:
+    image: nicolargo/glances:v3.4.0-full
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:61208"
+    pid: host
+    environment:
+      - GLANCES_OPT=-w
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro

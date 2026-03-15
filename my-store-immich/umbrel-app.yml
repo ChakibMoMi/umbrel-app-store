@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-immich
+category: personal
+name: Immich
+version: "1.99.0"
+tagline: High performance self-hosted photo and video backup solution
+description: >-
+  Immich is a high-performance self-hosted photo and video management solution.
+  Back up all your photos and videos directly from your mobile device. It
+  features face recognition, object detection, automatic tagging, location
+  display, map view, duplicate detection, and a beautiful web interface. Fully 
+  compatible with the official Immich mobile apps for iOS and Android.
+developer: Alex Tran
+website: https://immich.app
+dependencies: []
+repo: https://github.com/immich-app/immich
+support: https://discord.com/invite/D8JsnBEuKb
+port: 2283
+gallery: []
+path: ""
+defaultUsername: "admin@umbrel.local"
+defaultPassword: "umbrel123"
+torOnly: false

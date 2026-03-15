@@ -1,0 +1,37 @@
+version: "3.7"
+
+services:
+  app:
+    image: fireflyiii/core:version-6.1.7
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:8080"
+    environment:
+      - APP_ENV=production
+      - APP_DEBUG=false
+      - APP_KEY=SomeRandomStringOf32CharsExactly
+      - DB_CONNECTION=pgsql
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_DATABASE=firefly
+      - DB_USERNAME=firefly
+      - DB_PASSWORD=firefly_pass
+      - APP_URL=http://localhost:${APP_PORT}
+      - TRUSTED_PROXIES=**
+      - TZ=Europe/Berlin
+      - DEFAULT_LANGUAGE=de_DE
+      - DEFAULT_LOCALE=equal
+    volumes:
+      - "${APP_DATA_DIR}/data/upload:/var/www/html/storage/upload"
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15-alpine
+    restart: on-failure
+    environment:
+      - POSTGRES_USER=firefly
+      - POSTGRES_PASSWORD=firefly_pass
+      - POSTGRES_DB=firefly
+    volumes:
+      - "${APP_DATA_DIR}/data/db:/var/lib/postgresql/data"

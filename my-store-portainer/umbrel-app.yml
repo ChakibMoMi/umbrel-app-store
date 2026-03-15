@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-portainer
+category: security
+name: Portainer
+version: "2.20.2"
+tagline: Container management made easy
+description: >-
+  Portainer is a lightweight management UI for Docker, Kubernetes and Docker
+  Swarm. It lets you manage your containers, images, networks, and volumes
+  through a web interface. Portainer provides a clear overview of your Docker
+  environments and makes it easy to deploy, manage, and secure your container
+  infrastructure.
+developer: Portainer.io
+website: https://www.portainer.io
+dependencies: []
+repo: https://github.com/portainer/portainer
+support: https://www.portainer.io/support
+port: 9444
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

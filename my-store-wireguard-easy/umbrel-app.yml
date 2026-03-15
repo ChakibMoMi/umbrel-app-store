@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-wireguard-easy
+category: networking
+name: WireGuard Easy
+version: "13"
+tagline: The easiest way to run WireGuard VPN and its web UI
+description: >-
+  WireGuard Easy is the easiest way to install and manage WireGuard on any
+  Linux host. Create and delete clients with a simple click. Download client
+  config files with a QR code for mobile devices. See which clients are
+  connected. Statistic graphs for data usage. WireGuard is a fast and modern VPN
+  that respects your privacy.
+developer: Emile Nijssen
+website: https://github.com/wg-easy/wg-easy
+dependencies: []
+repo: https://github.com/wg-easy/wg-easy
+support: https://github.com/wg-easy/wg-easy/discussions
+port: 51821
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: "umbrel123"
+torOnly: false

@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  app:
+    image: cloudflare/cloudflared:2024.2.1
+    restart: on-failure
+    command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TUNNEL_TOKEN}
+    environment:
+      - CLOUDFLARE_TUNNEL_TOKEN=YOUR_TUNNEL_TOKEN_HERE

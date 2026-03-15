@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  app:
+    image: openwb/openwb2:2.1.4
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:80"
+      - "9883:9883"
+    environment:
+      - TZ=Europe/Berlin
+    volumes:
+      - "${APP_DATA_DIR}/data:/home/openwb/openWB/data"
+    privileged: true

@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-teslamate
+category: vehicles
+name: TeslaMate
+version: "1.28.5"
+tagline: A self-hosted data logger for your Tesla
+description: >-
+  TeslaMate is a powerful, self-hosted data logger for your Tesla vehicle.
+  Track mileage, energy consumption, charging sessions, efficiency, and battery
+  health over time. Display data on beautiful, pre-built Grafana dashboards.
+  Track geofences, get drive statistics, and see your car's location on a map.
+  Supports all Tesla vehicle models.
+developer: Adrian Kumpf
+website: https://docs.teslamate.org
+dependencies: []
+repo: https://github.com/teslamate-org/teslamate
+support: https://github.com/teslamate-org/teslamate/discussions
+port: 4000
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

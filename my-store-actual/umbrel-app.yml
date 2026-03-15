@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-actual
+category: finance
+name: Actual Budget
+version: "24.3.0"
+tagline: Super fast privacy-focused budgeting app
+description: >-
+  Actual Budget is a local-first personal finance app with powerful budgeting
+  based on envelope budgeting method. It's fast, works offline, and all your
+  data is stored on your own server. Sync across multiple devices, import bank
+  statements (QFX, OFX, CSV), and use the REST API for custom integrations.
+developer: Actual Budget Team
+website: https://actualbudget.org
+dependencies: []
+repo: https://github.com/actualbudget/actual-server
+support: https://actualbudget.org/docs/community-repos/
+port: 5006
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: "umbrel123"
+torOnly: false

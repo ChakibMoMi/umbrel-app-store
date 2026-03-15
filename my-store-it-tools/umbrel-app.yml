@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-it-tools
+category: security
+name: IT Tools
+version: "2024.5.13"
+tagline: Handy online tools for developers and IT professionals
+description: >-
+  IT Tools is a collection of handy online tools for developers and IT
+  professionals. It includes tools for token generation, hash calculation, UUID
+  generation, QR code generation, JWT decoding, base64 encoding/decoding,
+  color conversion, subnet calculator, cron expression parser, date/time
+  converters, text transformation, and many more useful utilities.
+developer: Corentin Thomasset
+website: https://it-tools.tech
+dependencies: []
+repo: https://github.com/CorentinTh/it-tools
+support: https://github.com/CorentinTh/it-tools/issues
+port: 8111
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

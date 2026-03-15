@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-cloudflared
+category: networking
+name: Cloudflare Tunnel
+version: "2024.2.1"
+tagline: Securely expose your services without opening firewall ports
+description: >-
+  Cloudflare Tunnel (formerly Argo Tunnel) provides you with a secure way to
+  connect your resources to Cloudflare without a publicly routable IP address.
+  With Tunnel, you don't send traffic to an external IP — instead, a lightweight
+  daemon (cloudflared) in your infrastructure creates outbound connections to
+  Cloudflare's global network. No need to open any inbound firewall ports.
+developer: Cloudflare
+website: https://www.cloudflare.com/products/tunnel/
+dependencies: []
+repo: https://github.com/cloudflare/cloudflared
+support: https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/
+port: 14333
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

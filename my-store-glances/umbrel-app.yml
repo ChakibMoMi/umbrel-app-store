@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-glances
+category: monitoring
+name: Glances
+version: "3.4.0"
+tagline: An eye on your system – a cross-platform monitoring tool
+description: >-
+  Glances is a cross-platform system monitoring tool written in Python. It
+  shows CPU, memory, disk, network, process list, Docker container statistics,
+  and much more in a single window. Glances can run in standalone, client/server
+  or web server mode and exposes a REST API.
+developer: Nicolargo
+website: https://nicolargo.github.io/glances/
+dependencies: []
+repo: https://github.com/nicolargo/glances
+support: https://github.com/nicolargo/glances/discussions
+port: 61208
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

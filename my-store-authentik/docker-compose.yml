@@ -1,0 +1,54 @@
+version: "3.7"
+
+services:
+  app:
+    image: ghcr.io/goauthentik/server:2024.2.2
+    restart: on-failure
+    command: server
+    ports:
+      - "${APP_PORT}:9000"
+      - "9443:9443"
+    environment:
+      - AUTHENTIK_REDIS__HOST=redis
+      - AUTHENTIK_POSTGRESQL__HOST=db
+      - AUTHENTIK_POSTGRESQL__USER=authentik
+      - AUTHENTIK_POSTGRESQL__NAME=authentik
+      - AUTHENTIK_POSTGRESQL__PASSWORD=authentik_pass
+      - AUTHENTIK_SECRET_KEY=changethissecretkey
+      - AUTHENTIK_ERROR_REPORTING__ENABLED=false
+    volumes:
+      - "${APP_DATA_DIR}/data/media:/media"
+      - "${APP_DATA_DIR}/data/custom-templates:/templates"
+    depends_on:
+      - db
+      - redis
+
+  worker:
+    image: ghcr.io/goauthentik/server:2024.2.2
+    restart: on-failure
+    command: worker
+    environment:
+      - AUTHENTIK_REDIS__HOST=redis
+      - AUTHENTIK_POSTGRESQL__HOST=db
+      - AUTHENTIK_POSTGRESQL__USER=authentik
+      - AUTHENTIK_POSTGRESQL__NAME=authentik
+      - AUTHENTIK_POSTGRESQL__PASSWORD=authentik_pass
+      - AUTHENTIK_SECRET_KEY=changethissecretkey
+    volumes:
+      - "${APP_DATA_DIR}/data/media:/media"
+      - "${APP_DATA_DIR}/data/certs:/certs"
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  db:
+    image: postgres:15-alpine
+    restart: on-failure
+    environment:
+      - POSTGRES_PASSWORD=authentik_pass
+      - POSTGRES_USER=authentik
+      - POSTGRES_DB=authentik
+    volumes:
+      - "${APP_DATA_DIR}/data/db:/var/lib/postgresql/data"
+
+  redis:
+    image: redis:7-alpine
+    restart: on-failure

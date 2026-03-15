@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-nextcloud
+category: productivity
+name: Nextcloud
+version: "28.0.3"
+tagline: The self-hosted productivity platform that keeps you in control
+description: >-
+  Nextcloud is a suite of client-server software for creating and using file
+  hosting services. It is enterprise-ready with dozens of different apps
+  available. Store your data, calendars, contacts, chat messages, and more on
+  your own server.
+developer: Nextcloud GmbH
+website: https://nextcloud.com
+dependencies: []
+repo: https://github.com/nextcloud/server
+support: https://help.nextcloud.com
+port: 8080
+gallery:
+  - https://nextcloud.com/media/nextcloud-hub-files-25-preview.jpg
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

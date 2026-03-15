@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-grocy
+category: finance
+name: Grocy
+version: "4.2.0"
+tagline: ERP beyond your fridge – self-hosted grocery & household management
+description: >-
+  Grocy is a self-hosted groceries and household management solution for your
+  home. Track your groceries, medications, equipment, tasks, and spending.
+  Plan meals and shopping with shopping lists, manage product expiration dates,
+  and see consumption statistics. Integrates with a barcode scanner.
+developer: Bernd Bestel
+website: https://grocy.info
+dependencies: []
+repo: https://github.com/grocy/grocy
+support: https://github.com/grocy/grocy/discussions
+port: 9283
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: ""
+torOnly: false

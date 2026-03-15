@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  app:
+    image: louislam/uptime-kuma:1.23.11
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:3001"
+    volumes:
+      - "${APP_DATA_DIR}/data:/app/data"

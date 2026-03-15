@@ -1,0 +1,76 @@
+# EVCC Configuration Template
+# Copy this file to the evcc data directory and customize for your setup.
+# Full documentation: https://docs.evcc.io/docs/reference/configuration/
+
+# EVCC network settings
+network:
+  schema: http
+  host: 0.0.0.0
+  port: 7070
+
+# Log level: fatal, error, warn, info, debug, trace
+log: info
+
+# Interval for status updates
+interval: 30s
+
+# Database for statistics
+database:
+  type: sqlite
+  dsn: /root/.evcc/evcc.db
+
+# MQTT broker (optional, for TeslaMate integration etc.)
+# mqtt:
+#   broker: mosquitto:1883
+#   topic: evcc
+
+# Meter configuration - your smart meter / grid connection
+meters:
+  - name: grid
+    type: template
+    template: shelly3em  # Change to your meter type
+    host: 192.168.1.100  # Change to your meter IP
+
+  # - name: pv
+  #   type: template
+  #   template: sma-sunny-boy
+  #   uri: http://192.168.1.101
+
+# Charger / Wallbox configuration
+chargers:
+  - name: wallbox
+    type: template
+    template: go-e  # Change to your wallbox type (go-eCharger, openWB, etc.)
+    host: 192.168.1.200  # Change to your wallbox IP
+
+# Vehicle configuration
+vehicles:
+  - name: my-car
+    type: template
+    template: tesla  # Change to your vehicle brand (tesla, vw, bmw, etc.)
+    title: My Tesla
+    # For Tesla:
+    # username: your@email.com
+    # password: yourpassword
+    # For VW/Skoda/Seat/Cupra:
+    # user: your@email.com
+    # password: yourpassword
+    # vin: WVWZZZ1JZXW000001
+
+# Load points (charging stations)
+loadpoints:
+  - title: Garage
+    charger: wallbox
+    vehicle: my-car
+    mode: pv          # pv = solar only, minpv = minimum + solar, now = full speed
+    minsoc: 20        # Minimum battery % - always charge to this
+    targetsoc: 80     # Target battery % - stop here unless immediate
+    resetOnDisconnect: false
+
+# Site configuration (your home energy setup)
+site:
+  title: My Home
+  meters:
+    grid: grid
+    # pv: pv        # Uncomment if you have solar
+    # battery: bat  # Uncomment if you have a home battery

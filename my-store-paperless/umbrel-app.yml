@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-paperless
+category: productivity
+name: Paperless-ngx
+version: "2.6.3"
+tagline: Scan, index and archive all your physical documents
+description: >-
+  Paperless-ngx is a community-supported open-source document management system
+  that transforms your physical documents into a searchable online archive so
+  you can keep, well, less paper. Supports OCR in many languages, automatic
+  tagging with machine learning, and a modern web interface.
+developer: Paperless-ngx Community
+website: https://docs.paperless-ngx.com
+dependencies: []
+repo: https://github.com/paperless-ngx/paperless-ngx
+support: https://github.com/paperless-ngx/paperless-ngx/discussions
+port: 8000
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

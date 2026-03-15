@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-vaultwarden
+category: productivity
+name: Vaultwarden
+version: "1.30.3"
+tagline: Unofficial Bitwarden-compatible server written in Rust
+description: >-
+  Vaultwarden is a lightweight, open-source implementation of the Bitwarden
+  password management server. It is fully compatible with the official Bitwarden
+  clients (browser extensions, desktop & mobile apps). Store your passwords,
+  secure notes and payment cards safely on your own server.
+developer: Daniel García
+website: https://github.com/dani-garcia/vaultwarden
+dependencies: []
+repo: https://github.com/dani-garcia/vaultwarden
+support: https://github.com/dani-garcia/vaultwarden/discussions
+port: 3012
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

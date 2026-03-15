@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-authentik
+category: security
+name: Authentik
+version: "2024.2.2"
+tagline: The authentication glue you need – open-source Identity Provider
+description: >-
+  Authentik is an open-source Identity Provider that enables you to authenticate
+  all your self-hosted apps with a single identity. It supports OAuth2, SAML,
+  LDAP, SCIM and proxy authentication. Use it for SSO across your homelab,
+  enforce MFA, manage users, set up social logins, and secure every app with
+  strong authentication. Easy to integrate with Nginx Proxy Manager and Traefik.
+developer: Authentik Security Inc.
+website: https://goauthentik.io
+dependencies: []
+repo: https://github.com/goauthentik/authentik
+support: https://github.com/goauthentik/authentik/discussions
+port: 9000
+gallery: []
+path: ""
+defaultUsername: "akadmin"
+defaultPassword: "umbrel123"
+torOnly: false

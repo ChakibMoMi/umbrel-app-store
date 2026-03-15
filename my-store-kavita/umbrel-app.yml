@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-kavita
+category: personal
+name: Kavita
+version: "0.8.0"
+tagline: Lightning fast with a target of being a complete reading experience
+description: >-
+  Kavita is a fast, feature-rich, cross-platform reading server. It is a
+  self-hosted digital library which supports a vast array of file formats:
+  Manga/Comics (CBZ, CBR, CB7, CBT, ZIP, RAR, 7Z, TAR), ebooks (EPUB,
+  MOBI), PDFs, and more. It features reading progress tracking, collections,
+  reading lists, and a beautiful modern interface.
+developer: Majora2007
+website: https://www.kavitareader.com
+dependencies: []
+repo: https://github.com/Kareadita/Kavita
+support: https://discord.gg/eczRp9eeem
+port: 5000
+gallery: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel123"
+torOnly: false

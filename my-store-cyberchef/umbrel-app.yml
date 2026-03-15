@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-cyberchef
+category: security
+name: CyberChef
+version: "10.18.9"
+tagline: The Cyber Swiss Army Knife – a web app for encryption & data analysis
+description: >-
+  CyberChef is a simple, intuitive web app for carrying out all manner of
+  "cyber" operations within a web browser. These operations include simple
+  encoding like XOR and Base64, more complex encryption like AES, DES and
+  Blowfish, creating binary and hexdumps, compression and decompression of data,
+  calculating hashes and checksums, IPv6 and X.509 parsing, and much more.
+developer: GCHQ
+website: https://gchq.github.io/CyberChef/
+dependencies: []
+repo: https://github.com/gchq/CyberChef
+support: https://github.com/gchq/CyberChef/issues
+port: 8765
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-joplin
+category: productivity
+name: Joplin Server
+version: "3.0.1"
+tagline: Open source note-taking and to-do application with sync
+description: >-
+  Joplin Server allows you to sync your Joplin notes across all your devices.
+  Joplin is an excellent open source note-taking application with features like
+  Markdown support, end-to-end encryption, notebooks, tags, attachments, and
+  more. Host your own sync server to keep your notes private and under your
+  control.
+developer: Laurent Cozic
+website: https://joplinapp.org
+dependencies: []
+repo: https://github.com/laurent22/joplin
+support: https://discourse.joplinapp.org
+port: 22300
+gallery: []
+path: ""
+defaultUsername: "admin@localhost"
+defaultPassword: "umbrel123"
+torOnly: false

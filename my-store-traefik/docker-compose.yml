@@ -1,0 +1,25 @@
+version: "3.7"
+
+services:
+  app:
+    image: traefik:v3.0.0
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:8080"
+      - "80:80"
+      - "443:443"
+    command:
+      - "--api.insecure=true"
+      - "--api.dashboard=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+      - "--certificatesresolvers.letsencrypt.acme.httpchallenge=true"
+      - "--certificatesresolvers.letsencrypt.acme.httpchallenge.entrypoint=web"
+      - "--certificatesresolvers.letsencrypt.acme.email=you@example.com"
+      - "--certificatesresolvers.letsencrypt.acme.storage=/letsencrypt/acme.json"
+      - "--log.level=INFO"
+    volumes:
+      - "${APP_DATA_DIR}/data/letsencrypt:/letsencrypt"
+      - /var/run/docker.sock:/var/run/docker.sock:ro

@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-prometheus
+category: monitoring
+name: Prometheus
+version: "2.50.1"
+tagline: The Prometheus monitoring system and time series database
+description: >-
+  Prometheus is an open-source systems monitoring and alerting toolkit. It
+  collects and stores metrics as time series data and provides a powerful query
+  language (PromQL) to analyze the data. Works seamlessly with Grafana for
+  beautiful dashboards. Includes alerting capabilities through Alertmanager.
+developer: Prometheus Authors
+website: https://prometheus.io
+dependencies: []
+repo: https://github.com/prometheus/prometheus
+support: https://prometheus.io/community/
+port: 9091
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

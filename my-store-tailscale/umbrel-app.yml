@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: my-store-tailscale
+category: networking
+name: Tailscale
+version: "1.60.0"
+tagline: Zero config VPN. Installs in minutes, manages automatically
+description: >-
+  Tailscale is a zero config VPN built on WireGuard. It creates a secure network
+  between your servers, computers, and cloud instances — even when separated by
+  firewalls or subnets. Access your devices remotely and securely from anywhere.
+  Tailscale handles NAT traversal, key rotation, and ACLs automatically.
+developer: Tailscale Inc.
+website: https://tailscale.com
+dependencies: []
+repo: https://github.com/tailscale/tailscale
+support: https://tailscale.com/contact/support/
+port: 8087
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

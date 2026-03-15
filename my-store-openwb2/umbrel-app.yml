@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: my-store-openwb2
+category: vehicles
+name: OpenWB 2
+version: "2.1.4"
+tagline: Open source EV wall box charging station software
+description: >-
+  OpenWB2 is an open-source, community-driven EV charging station control
+  software developed in Germany. It manages EV charging sessions, monitors
+  energy from solar panels, home batteries and the grid, and optimizes charging
+  based on available renewable energy. Supports single-phase and three-phase
+  charging, multiple charge points, and integrates with smart home systems like
+  Home Assistant. Perfect for German EV owners!
+developer: OpenWB Team
+website: https://openwb.de
+dependencies: []
+repo: https://github.com/openWB/core
+support: https://community.openwb.de
+port: 8500
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false

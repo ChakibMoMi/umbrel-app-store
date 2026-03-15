@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: my-store-mealie
+category: productivity
+name: Mealie
+version: "1.3.2"
+tagline: A self-hosted recipe manager and meal planner
+description: >-
+  Mealie is a self-hosted recipe manager and meal planner with a RestAPI backend
+  and a reactive frontend built in Vue. Import recipes from the web with a
+  single URL, create shopping lists from weekly meal plans, and share recipes
+  with your family. Mealie features an intuitive interface for adding, editing,
+  and managing your recipes.
+developer: Hay Kot
+website: https://mealie.io
+dependencies: []
+repo: https://github.com/mealie-recipes/mealie
+support: https://github.com/mealie-recipes/mealie/discussions
+port: 9925
+gallery: []
+path: ""
+defaultUsername: "changeme@example.com"
+defaultPassword: "umbrel123"
+torOnly: false

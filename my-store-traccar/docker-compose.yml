@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  app:
+    image: traccar/traccar:6.2
+    restart: on-failure
+    ports:
+      - "${APP_PORT}:8082"
+      - "5055:5055"
+    volumes:
+      - "${APP_DATA_DIR}/data/logs:/opt/traccar/logs"
+      - "${APP_DATA_DIR}/data/data:/opt/traccar/data"
