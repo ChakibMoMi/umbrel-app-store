@@ -16,7 +16,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/cyberchef.png
 dependencies: []
 repo: https://github.com/gchq/CyberChef
 support: https://github.com/gchq/CyberChef/issues
-port: 8765
+port: 8000
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://gchq.github.io/CyberChef/
 path: ""

@@ -16,7 +16,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/bookstack.png
 dependencies: []
 repo: https://github.com/BookStackApp/BookStack
 support: https://www.bookstackapp.com/support/
-port: 6875
+port: 80
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://www.bookstackapp.com
 path: ""

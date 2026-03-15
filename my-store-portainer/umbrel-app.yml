@@ -16,7 +16,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/portainer.png
 dependencies: []
 repo: https://github.com/portainer/portainer
 support: https://www.portainer.io/support
-port: 9444
+port: 9443
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://www.portainer.io
 path: ""

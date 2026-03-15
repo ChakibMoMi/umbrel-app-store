@@ -15,7 +15,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/prometheus.png
 dependencies: []
 repo: https://github.com/prometheus/prometheus
 support: https://prometheus.io/community/
-port: 9091
+port: 9090
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://prometheus.io
 path: ""

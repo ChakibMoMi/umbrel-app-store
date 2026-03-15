@@ -16,7 +16,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/wallabag.png
 dependencies: []
 repo: https://github.com/wallabag/wallabag
 support: https://github.com/wallabag/wallabag/issues
-port: 8095
+port: 80
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://wallabag.org
 path: ""

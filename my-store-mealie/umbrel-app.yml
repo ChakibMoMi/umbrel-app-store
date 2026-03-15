@@ -16,7 +16,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/mealie.png
 dependencies: []
 repo: https://github.com/mealie-recipes/mealie
 support: https://github.com/mealie-recipes/mealie/discussions
-port: 9925
+port: 9000
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://mealie.io
 path: ""

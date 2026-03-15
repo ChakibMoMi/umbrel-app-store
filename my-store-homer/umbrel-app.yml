@@ -15,7 +15,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/homer.png
 dependencies: []
 repo: https://github.com/bastienwirtz/homer
 support: https://github.com/bastienwirtz/homer/discussions
-port: 8888
+port: 8080
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://github.com/bastienwirtz/homer
 path: ""

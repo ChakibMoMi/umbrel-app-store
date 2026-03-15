@@ -16,7 +16,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/immich.png
 dependencies: []
 repo: https://github.com/immich-app/immich
 support: https://discord.com/invite/D8JsnBEuKb
-port: 2283
+port: 3001
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://immich.app
 path: ""

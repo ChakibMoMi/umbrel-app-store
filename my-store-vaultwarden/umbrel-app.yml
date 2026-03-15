@@ -15,7 +15,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/vaultwarden.png
 dependencies: []
 repo: https://github.com/dani-garcia/vaultwarden
 support: https://github.com/dani-garcia/vaultwarden/discussions
-port: 3012
+port: 80
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://github.com/dani-garcia/vaultwarden
 path: ""

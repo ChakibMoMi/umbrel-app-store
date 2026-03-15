@@ -15,7 +15,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/traefik.png
 dependencies: []
 repo: https://github.com/traefik/traefik
 support: https://community.traefik.io
-port: 8880
+port: 8080
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://traefik.io
 path: ""

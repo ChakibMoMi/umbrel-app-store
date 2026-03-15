@@ -16,7 +16,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/monica.png
 dependencies: []
 repo: https://github.com/monicahq/monica
 support: https://github.com/monicahq/monica/discussions
-port: 8200
+port: 80
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://www.monicahq.com
 path: ""

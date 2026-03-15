@@ -16,7 +16,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/firefly-iii.png
 dependencies: []
 repo: https://github.com/firefly-iii/firefly-iii
 support: https://github.com/firefly-iii/firefly-iii/discussions
-port: 8040
+port: 8080
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://www.firefly-iii.org
 path: ""

@@ -15,7 +15,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nextcloud.png
 dependencies: []
 repo: https://github.com/nextcloud/server
 support: https://help.nextcloud.com
-port: 8080
+port: 80
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://nextcloud.com
 path: ""

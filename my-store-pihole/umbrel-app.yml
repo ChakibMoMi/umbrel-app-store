@@ -15,7 +15,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/pi-hole.png
 dependencies: []
 repo: https://github.com/pi-hole/pi-hole
 support: https://discourse.pi-hole.net
-port: 8053
+port: 80
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://pi-hole.net
 path: "/admin"

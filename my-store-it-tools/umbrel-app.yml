@@ -16,7 +16,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/it-tools.png
 dependencies: []
 repo: https://github.com/CorentinTh/it-tools
 support: https://github.com/CorentinTh/it-tools/issues
-port: 8111
+port: 80
 gallery:
   - https://image.thum.io/get/width/1280/noanimate/https://it-tools.tech
 path: ""
