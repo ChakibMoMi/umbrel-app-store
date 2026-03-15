@@ -14,7 +14,7 @@ icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/ocular.png
 dependencies: []
 repo: https://github.com/simonwep/ocular
 support: https://github.com/simonwep/ocular/issues
-port: 80
+port: 3030
 gallery:
   - https://github.com/user-attachments/assets/ba90874d-8a62-413a-af65-bf6f3d308e84
   - https://github.com/user-attachments/assets/1be0a27b-a30e-42a3-82ea-f1b217ec163c
